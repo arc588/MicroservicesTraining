@@ -1,0 +1,22 @@
+https://github.com/eswaribala/rps_boa_microservices_2019
+
+cloud foundry
+cf login -a  api.run.pivotal.io
+
+>cf push boa-kyc-cf -p D:\Microservices_workspace\KYCProjectBoa\target\KYCProjectBoa-0.0.1-SNAPSHOT.jar
+
+consul command
+consul agent -server -bootstrap-expect=1 -data-dir=consul-data -ui -bind=172.24.144.1
+
+172.24.144.1
+
+git init
+
+git add .
+
+git  commit -m
+
+
+
+
+FC8D3FFB256AB
