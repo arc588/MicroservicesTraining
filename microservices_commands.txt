@@ -23,6 +23,6 @@ git  commit -m
  
  docker run -h  192.168.99.100  -p 8006:8006  -t  my-repo/boarepository --name my-repo-image:latest
 
-docer run --name boadb -e  MYSQL_ROOT_PASSWORD=root -e  MYSQL_ATABASE=root -e  MYSQL_USER=root -p 3306:3306 mysql/mysql-server:5.5
+ docker run --name boadb -e  MYSQL_ROOT_PASSWORD=root -e  MYSQL_DATABASE=boadb -e  MYSQL_USER=root -p 3306:3306 mysql/mysql-server:5.5
 
  docker pull mysql/mysql-server
