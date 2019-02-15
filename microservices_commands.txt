@@ -18,7 +18,10 @@ git init
 git add .
 git  commit -m
 
+#docker
+ 
+ clean install dockerfile:build
+ 
+ docker run -h  192.168.99.100  -p 8006:8006  -t  my-repo/boarepository --name my-repo-image:latest
 
 
-
-FC8D3FFB256AB
